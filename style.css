@@ -1,0 +1,22 @@
+html
+,body{
+    height:100vh;
+    margin: 0;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+.left-bar {
+    background-color: rgb(2, 150, 199);
+    color: white;
+    padding: 20px;
+    width: 13rem; /* specify a width */
+    height: 100vh; /* make it full height */
+}
+
+li{
+    list-style:none;
+}

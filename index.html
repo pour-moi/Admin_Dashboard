@@ -1,39 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin DashBoard</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <div class="container"> 
-        <div class="left-bar">
-            <ul>
-                <li><i class="fa fa-dashboard"></i>Dashboard</li>
-            </ul>
-        
-        <div class="top-list">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-bar">
         <ul>
-            <li><i class="fa-solid fa-house-user" style="color:white"></i>Home</li>
+          <li><i class="fa fa-dashboard"></i>Dashboard</li>
+        </ul>
+
+        <div class="top-list">
+          <ul>
+            <li>
+              <i class="fa-solid fa-house-user" style="color: white"></i>Home
+            </li>
             <li><i class="fa-regular fa-id-card"></i>Profile</li>
             <li><i class="fa-solid fa-message"></i>Messages</li>
             <li><i class="fa-solid fa-clock-rotate-left"></i>History</li>
             <li><i class="fa-solid fa-list-check"></i>Tasks</li>
             <li><i class="fa-solid fa-people-group"></i>Communities</li>
-        </ul>
+          </ul>
         </div>
 
         <div class="bottom-list">
-        <ul>
-            <li><i class="fa-solid fa-gear"></i>Settings<li>
-            <li><i class="fa-solid fa-circle-question"></i>Support<li>
-            <li><i class="fa-solid fa-shield"></i>Privacy<li>
-        </ul>
-            </div>
+          <ul>
+            <li><i class="fa-solid fa-gear"></i>Settings</li>
+            <li></li>
+            <li><i class="fa-solid fa-circle-question"></i>Support</li>
+            <li></li>
+            <li><i class="fa-solid fa-shield"></i>Privacy</li>
+            <li></li>
+          </ul>
         </div>
+      </div>
+      <div class="header-box">
+        <div class="top">
+          <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" />
+          </div>
+          <div class="profile-container">
+            <i class="fa-solid fa-bell"></i>
+            <div class="right-profile"></div>
+            <h1 class="left_profile-name">Profile name</h1>
+          </div>
+        </div>
+        <div class="main-profile">
+          <div class="left-profile">
+            <div class="main-profile_picture"></div>
+            <div class="main-profile_name">
+              <p class="greeting">Hi there</p>
+              <p class="name">Morgan Oakely</p>
+            </div>
+          </div>
+          <div class="lists">
+            <ul class="options">
+              <li class="left-list">Name</li>
+              <li class="left-list">Upload</li>
+              <li class="left-list">Share</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
